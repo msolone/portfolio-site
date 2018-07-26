@@ -98,3 +98,34 @@ body {
 .projects img {
   width: 15em;
 }
+.middle {
+  height: 30%;
+  background-color: #051018;
+}
+
+.first-article {
+  border-radius: 2em;
+  padding: 2em;
+  
+}
+.first-article article{
+background-color: white;
+padding: 1.5em;
+border-radius: 0 0 1em 1em;
+
+}
+
+.first-article header {
+  background-image: url("/assets/react.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 4em;
+  border-radius: 1em 1em 0 0;
+}
+
+
+
+.above-image-text {
+  font-family: 'Roboto', sans-serif; 
+}
