@@ -106,12 +106,13 @@ body {
 .first-article {
   border-radius: 2em;
   padding: 2em;
+  height: 10em;
   
 }
 .first-article article{
 background-color: white;
 padding: 1.5em;
-border-radius: 0 0 1em 1em;
+border-radius: 0 0 0.5em 0.5em;
 
 }
 
@@ -121,11 +122,12 @@ border-radius: 0 0 1em 1em;
   background-repeat: no-repeat;
   background-position: center;
   height: 4em;
-  border-radius: 1em 1em 0 0;
+  border-radius: 0.5em 0.5em 0 0;
 }
 
 
 
 .above-image-text {
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
+  height: 6em; 
 }
