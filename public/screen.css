@@ -131,3 +131,19 @@ border-radius: 0 0 0.5em 0.5em;
   font-family: 'Roboto', sans-serif;
   height: 6em; 
 }
+
+.keep-reading {
+  height: 2em;
+  margin-left: 75em;
+  bottom: 4em;
+  position: absolute;
+  width: 8em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 0.25em;
+  font-family: 'Roboto';
+  background: #3580CF;
+  padding: 0 0.4em;
+  color: white;
+}
