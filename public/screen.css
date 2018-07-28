@@ -99,8 +99,11 @@ body {
   width: 15em;
 }
 .middle {
-  height: 30%;
+  height: 75%;
   background-color: #051018;
+  display: flex;
+  flex-direction: column;
+  background-size: 100%;
 }
 
 .first-article {
@@ -109,34 +112,52 @@ body {
   height: 10em;
   
 }
-.first-article article{
-background-color: white;
-padding: 1.5em;
-border-radius: 0 0 0.5em 0.5em;
 
+.article-header {
+  display: flex;
+  align-items: baseline;
+  background: white;
+  padding-left: 1.5em; 
+  font-family: "Roboto";
 }
+
+.large-header-text {
+  font-size: 22px;
+  font-weight: bold;
+  padding-right: 0.5em;
+  color: #424242;
+}
+
+.small-header-text {
+  padding-top: 0.5em;
+  color: #424242;
+}
+
 
 .first-article header {
   background-image: url("/assets/react.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 4em;
+  height: 5em;
   border-radius: 0.5em 0.5em 0 0;
 }
 
 
 
 .above-image-text {
+  color: #424242;
   font-family: 'Roboto', sans-serif;
   height: 6em; 
+  padding: 0em 0 0.5em 1em;
+  background-color: white;
+  border-radius: 0 0 0.5em 0.5em;
 }
 
 .keep-reading {
   height: 2em;
   margin-left: 75em;
-  bottom: 4em;
-  position: absolute;
+  margin-top: -1.2em; 
   width: 8em;
   justify-content: center;
   align-items: center;
@@ -146,4 +167,72 @@ border-radius: 0 0 0.5em 0.5em;
   background: #3580CF;
   padding: 0 0.4em;
   color: white;
+}
+
+.second-article {
+  border-radius: 2em;
+  padding: 2em;
+  height: 10em;
+  margin-top: 1.5em;
+}
+.keep-reading2 {
+  height: 2em;
+  margin-left: 75em;
+  margin-top: -1.2em; 
+  width: 8em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 0.25em;
+  font-family: 'Roboto';
+  background: #3580CF;
+  padding: 0 0.4em;
+  color: white;
+}
+
+#second-article-photo {
+  background-image: url("/assets/code.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 5em;
+  border-radius: 0.5em 0.5em 0 0;
+  margin-top: 2em;
+
+}
+
+footer {
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  background-color: #051018;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3em;
+  
+}
+
+.stay-connected {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 1em;
+}
+
+footer ul {
+  list-style: none;
+}
+footer li img {
+  height: 5em;
+}
+
+.twitter {
+  display: flex;
+  padding-bottom: 3em;
+}
+
+.copyright {
+  color: #D1D4D6;
+  font-size: 0.75em;
+  padding-bottom: 2px;
 }
